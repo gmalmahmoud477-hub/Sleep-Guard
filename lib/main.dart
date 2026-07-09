@@ -59,7 +59,7 @@ void onStart(ServiceInstance service) {
     DateTime wakeTime = DateTime(now.year, now.month, now.day, wakeHour, wakeMinute);
     if (now.isAfter(lockTime) && now.isBefore(wakeTime)) {
       try {
-        await Brightness.setBrightness(0.0);
+            await ScreenBrightness().setScreenBrightness(0.0);
         if (await Vibration.hasVibrator()) {
           Vibration.vibrate(duration: 1000, amplitude: 128);
         }
