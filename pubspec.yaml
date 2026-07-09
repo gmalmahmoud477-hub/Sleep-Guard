@@ -10,7 +10,7 @@ dependencies:
   flutter_local_notifications: ^17.2.1
   vibration: ^1.8.4
   android_intent_plus: ^4.2.0
-  brightness: ^1.1.0
+  screen_brightness: ^2.0.0
   permission_handler: ^11.3.1
   shared_preferences: ^2.2.3
   flutter_animate: ^4.3.0
